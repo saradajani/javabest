@@ -1,0 +1,43 @@
+<!-- notice how both the opening <html> tag and the closing </html> tag are NOT indented so you can clearly see the start and end of the code -->
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Displaying Rows & Columns</title>
+		<link rel="stylesheet" href="style.css"/>
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cabin+Sketch" />
+		
+	</head>
+
+	<body>
+		<div class="column green">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<center><h1> Click ASAP Below!</h1></center>
+		</div>
+		<div class="column2 pink">
+			<div class="square">
+				<img src="image/aasap.jpg" id="asap"/>
+			</div>
+			<div class="square" onclick="changeImg(this)">
+				<img src="image/aasap.jpg"/>
+			</div>
+			<div class="square">
+				<img src="image/aasap.jpg"  id="asap2"/>
+			</div>
+		</div>
+		<div class="column green"></div>
+		<script src="script.js"></script>
+	</body>
+</html>
