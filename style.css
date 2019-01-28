@@ -5,6 +5,7 @@ body {
 	color: #D4D3B5;
 	font-family: "Cabin Sketch";
 	margin: 0;
+	background-color: #000000;
 }
 
 .column {
@@ -42,3 +43,27 @@ body {
 	height: 100%;
 	width: 100%;
 }
+.btn{
+ -moz-transition: all 2s ease;
+ -o-transition: all 2s ease;
+ -webkit-transition: all 2s ease;
+  }
+
+ .btn:hover{
+  background-color:#6796B8; 
+ -moz-transform:translate(0,-1.3em);
+ -o-transform:translate(0,-1.3em);
+ -webkit-transform:translate(0,-1.3em);
+  }
+  .btn2{
+ -moz-transition: all 2s ease;
+ -o-transition: all 2s ease;
+ -webkit-transition: all 2s ease;
+  }
+
+ .btn2:hover{
+  background-color:#6796B8; 
+ -moz-transform:translate(0,1.3em);
+ -o-transform:translate(0,1.3em);
+ -webkit-transform:translate(0,1.3em);
+  }
