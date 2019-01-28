@@ -18,7 +18,7 @@ body {
 }
 .square {
 	height: 100%;
-	width: 33%;
+	width: calc(100%/3);
 	display:flex;
 }
 
