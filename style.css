@@ -32,7 +32,13 @@ body {
 .pink {
 	background-color: black;
 }
+
+.center-content{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
 .restrict-img-size {
-	max-height: 75%;
-	max-width: 75%;
+	height: 100%;
+	width: 100%;
 }
